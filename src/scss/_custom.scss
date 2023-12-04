@@ -1,0 +1,23 @@
+// custom colors
+
+$very-dark-gray: #555;
+$very-light-gray: #e7e7e7;
+$dark-cyan: #1caa98;
+$very-dark-blue: #1b222a;
+
+// accordion
+
+$accordion-color: #000;
+
+$accordion-button-active-bg: #1caa98;
+$accordion-button-bg: #c7f3ed;
+
+$accordion-button-padding-y: 1rem;
+
+$accordion-border-color: #000;
+$accordion-icon-active-color: red;
+
+$accordion-button-focus-box-shadow: $dark-cyan;
+
+$accordion-button-focus-border-color: red !important;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,26 @@
+.navbar {
+  padding: 0;
+  width: 100%;
+
+  .navbar-nav {
+    a {
+      padding: 1rem;
+
+      &:hover {
+        color: $very-dark-gray;
+      }
+    }
+  }
+}
+
+.active {
+  background-color: $very-light-gray;
+}
+
+.navbar-brand {
+  padding: 0.65rem;
+}
+
+.em-text {
+  color: $dark-cyan !important;
+}

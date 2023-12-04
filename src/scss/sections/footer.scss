@@ -1,0 +1,43 @@
+@use "../custom" as *;
+
+footer {
+  position: relative;
+  background: lighten($color: black, $amount: 20%);
+  color: white;
+  padding: 30px 0 20px 0;
+  p {
+    width: auto;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    margin-left: auto;
+
+    li {
+      list-style: none;
+      padding: 0 10px 0 10px;
+      float: left;
+
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    ul {
+      padding: 0;
+      margin-left: auto;
+      width: 100%;
+      li {
+        text-align: center;
+        float: none;
+      }
+    }
+  }
+}
